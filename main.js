@@ -15,7 +15,7 @@ function adicionaLinha(){
     let nomeAtualInput = document.getElementById('nome-do-contato');
     let numeroAtualInput = document.getElementById('numero-do-contato');
 
-    if (listaTelefones.includes(numeroAtualInput.value)){
+    if (listaTelefones.includes(parseInt(numeroAtualInput.value))){
         alert(`O número ${numeroAtualInput.value} já foi adicionado a sua lista anteriormente.`)
     } else{
         listaNomes.push(nomeAtualInput.value);
