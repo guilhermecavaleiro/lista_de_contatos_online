@@ -30,8 +30,8 @@ function adicionaLinha(){
         linhas += linha;
     }
 
-    nomeAtualInput = '';
-    numeroAtualInput = '';
+    nomeAtualInput.value = '';
+    numeroAtualInput.value = '';
 }
 
 function atualizaTabela(){
